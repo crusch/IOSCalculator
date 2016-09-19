@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		575CCFDB1D90385A00D38266 /* CalcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575CCFDA1D90385A00D38266 /* CalcViewController.swift */; };
+		57D617671D8F3B5A00EAE196 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D617661D8F3B5A00EAE196 /* AppDelegate.swift */; };
+		57D617691D8F3B5A00EAE196 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D617681D8F3B5A00EAE196 /* ViewController.swift */; };
+		57D6176C1D8F3B5A00EAE196 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57D6176A1D8F3B5A00EAE196 /* Main.storyboard */; };
+		57D6176E1D8F3B5A00EAE196 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57D6176D1D8F3B5A00EAE196 /* Assets.xcassets */; };
+		57D617711D8F3B5A00EAE196 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57D6176F1D8F3B5A00EAE196 /* LaunchScreen.storyboard */; };
+		57D6177C1D8F3B5A00EAE196 /* RuschChelsea_HW3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D6177B1D8F3B5A00EAE196 /* RuschChelsea_HW3Tests.swift */; };
+		57D617871D8F3B5A00EAE196 /* RuschChelsea_HW3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D617861D8F3B5A00EAE196 /* RuschChelsea_HW3UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57D617781D8F3B5A00EAE196 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57D6175B1D8F3B5A00EAE196 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57D617621D8F3B5A00EAE196;
+			remoteInfo = "RuschChelsea-HW3";
+		};
+		57D617831D8F3B5A00EAE196 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57D6175B1D8F3B5A00EAE196 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57D617621D8F3B5A00EAE196;
+			remoteInfo = "RuschChelsea-HW3";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		575CCFDA1D90385A00D38266 /* CalcViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalcViewController.swift; path = ../CalcViewController.swift; sourceTree = "<group>"; };
+		57D617631D8F3B5A00EAE196 /* RuschChelsea-HW3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RuschChelsea-HW3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57D617661D8F3B5A00EAE196 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57D617681D8F3B5A00EAE196 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		57D6176B1D8F3B5A00EAE196 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57D6176D1D8F3B5A00EAE196 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57D617701D8F3B5A00EAE196 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57D617721D8F3B5A00EAE196 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57D617771D8F3B5A00EAE196 /* RuschChelsea-HW3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RuschChelsea-HW3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57D6177B1D8F3B5A00EAE196 /* RuschChelsea_HW3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuschChelsea_HW3Tests.swift; sourceTree = "<group>"; };
+		57D6177D1D8F3B5A00EAE196 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57D617821D8F3B5A00EAE196 /* RuschChelsea-HW3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RuschChelsea-HW3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57D617861D8F3B5A00EAE196 /* RuschChelsea_HW3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuschChelsea_HW3UITests.swift; sourceTree = "<group>"; };
+		57D617881D8F3B5A00EAE196 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57D617601D8F3B5A00EAE196 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57D617741D8F3B5A00EAE196 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57D6177F1D8F3B5A00EAE196 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57D6175A1D8F3B5A00EAE196 = {
+			isa = PBXGroup;
+			children = (
+				57D617651D8F3B5A00EAE196 /* RuschChelsea-HW3 */,
+				57D6177A1D8F3B5A00EAE196 /* RuschChelsea-HW3Tests */,
+				57D617851D8F3B5A00EAE196 /* RuschChelsea-HW3UITests */,
+				57D617641D8F3B5A00EAE196 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57D617641D8F3B5A00EAE196 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57D617631D8F3B5A00EAE196 /* RuschChelsea-HW3.app */,
+				57D617771D8F3B5A00EAE196 /* RuschChelsea-HW3Tests.xctest */,
+				57D617821D8F3B5A00EAE196 /* RuschChelsea-HW3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57D617651D8F3B5A00EAE196 /* RuschChelsea-HW3 */ = {
+			isa = PBXGroup;
+			children = (
+				575CCFDA1D90385A00D38266 /* CalcViewController.swift */,
+				57D617661D8F3B5A00EAE196 /* AppDelegate.swift */,
+				57D617681D8F3B5A00EAE196 /* ViewController.swift */,
+				57D6176A1D8F3B5A00EAE196 /* Main.storyboard */,
+				57D6176D1D8F3B5A00EAE196 /* Assets.xcassets */,
+				57D6176F1D8F3B5A00EAE196 /* LaunchScreen.storyboard */,
+				57D617721D8F3B5A00EAE196 /* Info.plist */,
+			);
+			path = "RuschChelsea-HW3";
+			sourceTree = "<group>";
+		};
+		57D6177A1D8F3B5A00EAE196 /* RuschChelsea-HW3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				57D6177B1D8F3B5A00EAE196 /* RuschChelsea_HW3Tests.swift */,
+				57D6177D1D8F3B5A00EAE196 /* Info.plist */,
+			);
+			path = "RuschChelsea-HW3Tests";
+			sourceTree = "<group>";
+		};
+		57D617851D8F3B5A00EAE196 /* RuschChelsea-HW3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				57D617861D8F3B5A00EAE196 /* RuschChelsea_HW3UITests.swift */,
+				57D617881D8F3B5A00EAE196 /* Info.plist */,
+			);
+			path = "RuschChelsea-HW3UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57D617621D8F3B5A00EAE196 /* RuschChelsea-HW3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57D6178B1D8F3B5A00EAE196 /* Build configuration list for PBXNativeTarget "RuschChelsea-HW3" */;
+			buildPhases = (
+				57D6175F1D8F3B5A00EAE196 /* Sources */,
+				57D617601D8F3B5A00EAE196 /* Frameworks */,
+				57D617611D8F3B5A00EAE196 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RuschChelsea-HW3";
+			productName = "RuschChelsea-HW3";
+			productReference = 57D617631D8F3B5A00EAE196 /* RuschChelsea-HW3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57D617761D8F3B5A00EAE196 /* RuschChelsea-HW3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57D6178E1D8F3B5A00EAE196 /* Build configuration list for PBXNativeTarget "RuschChelsea-HW3Tests" */;
+			buildPhases = (
+				57D617731D8F3B5A00EAE196 /* Sources */,
+				57D617741D8F3B5A00EAE196 /* Frameworks */,
+				57D617751D8F3B5A00EAE196 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57D617791D8F3B5A00EAE196 /* PBXTargetDependency */,
+			);
+			name = "RuschChelsea-HW3Tests";
+			productName = "RuschChelsea-HW3Tests";
+			productReference = 57D617771D8F3B5A00EAE196 /* RuschChelsea-HW3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		57D617811D8F3B5A00EAE196 /* RuschChelsea-HW3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57D617911D8F3B5A00EAE196 /* Build configuration list for PBXNativeTarget "RuschChelsea-HW3UITests" */;
+			buildPhases = (
+				57D6177E1D8F3B5A00EAE196 /* Sources */,
+				57D6177F1D8F3B5A00EAE196 /* Frameworks */,
+				57D617801D8F3B5A00EAE196 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57D617841D8F3B5A00EAE196 /* PBXTargetDependency */,
+			);
+			name = "RuschChelsea-HW3UITests";
+			productName = "RuschChelsea-HW3UITests";
+			productReference = 57D617821D8F3B5A00EAE196 /* RuschChelsea-HW3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57D6175B1D8F3B5A00EAE196 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = bulko;
+				TargetAttributes = {
+					57D617621D8F3B5A00EAE196 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					57D617761D8F3B5A00EAE196 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 57D617621D8F3B5A00EAE196;
+					};
+					57D617811D8F3B5A00EAE196 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 57D617621D8F3B5A00EAE196;
+					};
+				};
+			};
+			buildConfigurationList = 57D6175E1D8F3B5A00EAE196 /* Build configuration list for PBXProject "RuschChelsea-HW3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57D6175A1D8F3B5A00EAE196;
+			productRefGroup = 57D617641D8F3B5A00EAE196 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57D617621D8F3B5A00EAE196 /* RuschChelsea-HW3 */,
+				57D617761D8F3B5A00EAE196 /* RuschChelsea-HW3Tests */,
+				57D617811D8F3B5A00EAE196 /* RuschChelsea-HW3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57D617611D8F3B5A00EAE196 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D617711D8F3B5A00EAE196 /* LaunchScreen.storyboard in Resources */,
+				57D6176E1D8F3B5A00EAE196 /* Assets.xcassets in Resources */,
+				57D6176C1D8F3B5A00EAE196 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57D617751D8F3B5A00EAE196 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57D617801D8F3B5A00EAE196 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57D6175F1D8F3B5A00EAE196 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D617691D8F3B5A00EAE196 /* ViewController.swift in Sources */,
+				575CCFDB1D90385A00D38266 /* CalcViewController.swift in Sources */,
+				57D617671D8F3B5A00EAE196 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57D617731D8F3B5A00EAE196 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D6177C1D8F3B5A00EAE196 /* RuschChelsea_HW3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57D6177E1D8F3B5A00EAE196 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D617871D8F3B5A00EAE196 /* RuschChelsea_HW3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57D617791D8F3B5A00EAE196 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57D617621D8F3B5A00EAE196 /* RuschChelsea-HW3 */;
+			targetProxy = 57D617781D8F3B5A00EAE196 /* PBXContainerItemProxy */;
+		};
+		57D617841D8F3B5A00EAE196 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57D617621D8F3B5A00EAE196 /* RuschChelsea-HW3 */;
+			targetProxy = 57D617831D8F3B5A00EAE196 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57D6176A1D8F3B5A00EAE196 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57D6176B1D8F3B5A00EAE196 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57D6176F1D8F3B5A00EAE196 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57D617701D8F3B5A00EAE196 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57D617891D8F3B5A00EAE196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57D6178A1D8F3B5A00EAE196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57D6178C1D8F3B5A00EAE196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "RuschChelsea-HW3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "utcs.RuschChelsea-HW3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		57D6178D1D8F3B5A00EAE196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "RuschChelsea-HW3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "utcs.RuschChelsea-HW3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		57D6178F1D8F3B5A00EAE196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "RuschChelsea-HW3Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "utcs.RuschChelsea-HW3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RuschChelsea-HW3.app/RuschChelsea-HW3";
+			};
+			name = Debug;
+		};
+		57D617901D8F3B5A00EAE196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "RuschChelsea-HW3Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "utcs.RuschChelsea-HW3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RuschChelsea-HW3.app/RuschChelsea-HW3";
+			};
+			name = Release;
+		};
+		57D617921D8F3B5A00EAE196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "RuschChelsea-HW3UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "utcs.RuschChelsea-HW3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "RuschChelsea-HW3";
+			};
+			name = Debug;
+		};
+		57D617931D8F3B5A00EAE196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "RuschChelsea-HW3UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "utcs.RuschChelsea-HW3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "RuschChelsea-HW3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57D6175E1D8F3B5A00EAE196 /* Build configuration list for PBXProject "RuschChelsea-HW3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57D617891D8F3B5A00EAE196 /* Debug */,
+				57D6178A1D8F3B5A00EAE196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57D6178B1D8F3B5A00EAE196 /* Build configuration list for PBXNativeTarget "RuschChelsea-HW3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57D6178C1D8F3B5A00EAE196 /* Debug */,
+				57D6178D1D8F3B5A00EAE196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57D6178E1D8F3B5A00EAE196 /* Build configuration list for PBXNativeTarget "RuschChelsea-HW3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57D6178F1D8F3B5A00EAE196 /* Debug */,
+				57D617901D8F3B5A00EAE196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57D617911D8F3B5A00EAE196 /* Build configuration list for PBXNativeTarget "RuschChelsea-HW3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57D617921D8F3B5A00EAE196 /* Debug */,
+				57D617931D8F3B5A00EAE196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57D6175B1D8F3B5A00EAE196 /* Project object */;
+}
